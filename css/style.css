@@ -1,4 +1,9 @@
 
+
+*{
+    font-family: 'Montserrat';
+}
+
   /* Nav Bar */
 .bars {
     /*   background-color:pink; */    
@@ -362,6 +367,7 @@
 .sideHead{
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 10pt;
 }
 
 .imgLogo2{
