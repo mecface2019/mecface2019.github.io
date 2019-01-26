@@ -850,3 +850,15 @@ navbar-default .navbar-nav > .active >a:focus{
   font-size: 18pt;
   padding: 8pt; 
 }
+
+.navHead{
+  font-weight: bolder;
+}
+
+.mainHeadImg{
+  font-weight: bolder;
+}
+
+.smallHeadImg{
+  font-weight: bold;
+}
