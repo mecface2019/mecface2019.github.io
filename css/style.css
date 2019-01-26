@@ -862,3 +862,8 @@ navbar-default .navbar-nav > .active >a:focus{
 .smallHeadImg{
   font-weight: bold;
 }
+
+.contact{
+  padding: 15pt;
+  margin: auto;
+}
