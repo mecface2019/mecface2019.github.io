@@ -1,41 +1,41 @@
 
-// Navbar
-$(document).ready(function(){
-  $(window).scroll(function () {
-    'use strict';
-    if ($(window).scrollTop() < 80) {
-        $('.navbar').css({
-            'margin-top': '-100px',
-            'opacity': '0'
-        });
-        $('.navbar-default').css({
-          'background-color': 'rgba(120,120,120,0)',
+// // Navbar
+// $(document).ready(function(){
+//   $(window).scroll(function () {
+//     'use strict';
+//     if ($(window).scrollTop() < 80) {
+//         $('.navbar').css({
+//             'margin-top': '-100px',
+//             'opacity': '0'
+//         });
+//         $('.navbar-default').css({
+//           'background-color': 'rgba(120,120,120,0)',
 
-        });
+//         });
 
-    } else {
-        $('.navbar').css({
-            'margin-top': '0px',
-            'opacity': '1'
-        });
-        $('.navbar-default').css({
-            'background-color': 'rgba(120,120,120,0.8)',
-            'border-color': '#444'
-        });
-        $('.navbar-brand img').css({
-            'height': '35px',
-            'padding-top': '0px'
-        });
-        $('.navbar-nav > li > a').css({
-            'padding-top': '15px'
+//     } else {
+//         $('.navbar').css({
+//             'margin-top': '0px',
+//             'opacity': '1'
+//         });
+//         $('.navbar-default').css({
+//             'background-color': 'rgba(120,120,120,0.8)',
+//             'border-color': '#444'
+//         });
+//         $('.navbar-brand img').css({
+//             'height': '35px',
+//             'padding-top': '0px'
+//         });
+//         $('.navbar-nav > li > a').css({
+//             'padding-top': '15px'
 
-        });
+//         });
 
 
-    }
+//     }
 
-  });
-});
+//   });
+// });
 
 // Timer
 
