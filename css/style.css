@@ -398,19 +398,19 @@ navbar-default .navbar-nav > .active >a:focus{
 /* Timer */
 
 #days {
-    font-size: 25pt;
+    font-size: 15pt;
     color: #192A56;
   }
   #hours {
-    font-size: 25pt;
+    font-size: 15pt;
     color: #2475B0;
   }
   #minutes {
-    font-size: 25pt;
+    font-size: 15pt;
     color: #0ABDE3;
   }
   #seconds {
-    font-size: 25pt;
+    font-size: 15pt;
     color: #25CCF7;
   }
 
@@ -871,4 +871,29 @@ navbar-default .navbar-nav > .active >a:focus{
 .keynoteDudes{
   padding: 20pt;
   margin: 15pt;
+}
+
+.impDate{
+  font-weight: bold;
+  color: red;
+}
+
+.impDate2{
+  font-weight: bold;
+  color: #EEC213;
+}
+
+.impDate3{
+  font-weight: bold;
+  color: #019031;
+}
+
+.themeClass2{
+  font-size: 12pt;
+  padding: 4pt;
+  align-content: center;
+}
+
+.h3{
+  font-size: 16pt;
 }
