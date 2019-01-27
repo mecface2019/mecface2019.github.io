@@ -897,3 +897,9 @@ navbar-default .navbar-nav > .active >a:focus{
 .h3{
   font-size: 16pt;
 }
+
+.smallShit{
+  font-size: 14pt;
+  font-weight: bolder;
+  /* margin-bottom: -5pt; */
+}
