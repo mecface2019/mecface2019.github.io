@@ -831,7 +831,10 @@ navbar-default .navbar-nav > .active >a:focus{
   width: 5%;
 }
 
-
+body > div.jumbotron > div > div > div > p{
+  font-size: 50pt;
+  font-weight: bold;
+}
 
 .jumbotron {
   margin-bottom: 0px;
