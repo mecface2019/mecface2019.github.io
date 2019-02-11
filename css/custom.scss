@@ -1,0 +1,62 @@
+@import 'mixins';
+
+$colors:(
+    primary : #2475B0,
+    accent :#218F76,
+    font: #F3B431,
+    kindWhite :#EAF0F1
+);
+
+// Function after every key value pair
+@function color($colorname){
+    @return map-get($map: $colors, $key: $colorname);
+}
+
+main{
+    height: 120vh;
+    overflow: hidden; 
+    @include coverImage("../img/homepage/mec.jpg");
+    text-align: right;  
+    margin-top: -5%;
+    h2{
+        margin-right: 20%;
+        margin-top:20%;
+        padding: auto;
+        color: color(font);
+        font-size: 35pt;
+    }
+
+    h3{
+        margin-right:35pt;
+        color: color(font);
+        font-size: 25pt;
+    }
+
+    h4{
+        color: color(kindWhite);
+        margin-top:15pt;
+        margin-right:16%;
+        font-size: 20pt;
+    }
+}
+
+nav{
+    background: rgba(0,0,0,0.8) !important;
+    
+}
+
+
+.aboutp{
+    text-align: justify;
+    font-size:13pt;
+}
+
+.heading{
+    margin:5pt;
+    padding: 15pt;
+}
+
+.map{
+    padding: 15pt;
+    align-content: center;
+}

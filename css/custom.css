@@ -1,0 +1,53 @@
+main {
+  height: 120vh;
+  overflow: hidden;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.2)), to(rgba(0, 0, 0, 0.9))), url("../img/homepage/mec.jpg");
+  background-image: linear-gradient(to top, rgba(0, 45, 75, 0.2), rgba(0, 0, 0, 0.9)), url("../img/homepage/mec.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: right;
+  margin-top: -5%;
+}
+
+main h2 {
+  margin-right: 20%;
+  margin-top: 20%;
+  padding: auto;
+  color: #F3B431;
+  font-size: 35pt;
+}
+
+main h3 {
+  margin-right: 35pt;
+  color: #F3B431;
+  font-size: 25pt;
+}
+
+main h4 {
+  color: #EAF0F1;
+  margin-top: 15pt;
+  margin-right: 16%;
+  font-size: 20pt;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.aboutp {
+  text-align: justify;
+  font-size: 13pt;
+}
+
+.heading {
+  margin: 5pt;
+  padding: 15pt;
+}
+
+.map {
+  padding: 15pt;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+/*# sourceMappingURL=custom.css.map */
