@@ -95,7 +95,13 @@
 	min-height: 100px;
 }
 
+html{
+	position: relative !important;
+}
+
 #myFooter{
 	flex: 0 0 auto;
-    -webkit-flex: 0 0 auto;
+	-webkit-flex: 0 0 auto;
+	
+
 }
