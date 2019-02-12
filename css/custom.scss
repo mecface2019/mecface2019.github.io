@@ -13,14 +13,45 @@ $colors:(
 }
 
 main{
-    height: 120vh;
+    height: 110vh;
     overflow: hidden; 
     @include coverImage("../img/homepage/mec.jpg");
     text-align: right;  
     margin-top: -5%;
-    h2{
+
+    @media (min-width: 320px) and (max-width: 480px) {
+
+
+
+
+        h2{
+            margin-right: 20%;
+            margin-top:60%;
+            padding: auto;
+            color: color(font);
+            font-size: 25pt;
+        }
+    
+        h3{
+            margin-right:35pt;
+            color: color(font);
+            font-size: 20pt;
+        }
+    
+        h4{
+            color: color(kindWhite);
+            margin-top:15pt;
+            margin-right:16%;
+            font-size: 20pt;
+        }        
+        
+      }
+    @media (min-width: 1025px){
+
+
+        h2{
         margin-right: 20%;
-        margin-top:20%;
+        margin-top:30%;
         padding: auto;
         color: color(font);
         font-size: 35pt;
@@ -37,6 +68,34 @@ main{
         margin-top:15pt;
         margin-right:16%;
         font-size: 20pt;
+    }
+        
+      }
+    
+}
+
+@media(min-width:1025px){
+    .logoNav{
+        display: none !important;
+    }
+    .collapse navbar-collapse{
+        display: none !important;
+    }
+}
+ 
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .logoNav{
+        color:color(kindWhite) !important;
+    }
+
+    main{
+        height: 80vh;
+    }
+    .parent{
+        h1{
+            font-size: 20pt;
+        }
     }
 }
 
@@ -59,4 +118,15 @@ nav{
 .map{
     padding: 15pt;
     align-content: center;
+}
+
+
+
+.container{
+    .navbar-header{
+        display: none;
+    }
+    #loso-navbar-collapse-1{
+        display: none;
+    }
 }
