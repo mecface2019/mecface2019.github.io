@@ -77,6 +77,11 @@ nav {
   background: rgba(0, 0, 0, 0.8) !important;
 }
 
+.carImg {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.2)), to(rgba(0, 0, 0, 0.9)));
+  background-image: linear-gradient(to top, rgba(0, 45, 75, 0.2), rgba(0, 0, 0, 0.9));
+}
+
 .aboutp {
   text-align: justify;
   font-size: 13pt;
@@ -99,5 +104,21 @@ nav {
 
 .container #loso-navbar-collapse-1 {
   display: none;
+}
+
+.newKeyPic {
+  height: 160pt !important;
+  width: 160pt !important;
+}
+
+.keyNoteDetails {
+  text-align: left;
+  padding-top: 10pt;
+  margin-top: auto;
+}
+
+.speakerClass {
+  padding: 10pt 0pt;
+  margin: auto;
 }
 /*# sourceMappingURL=custom.css.map */

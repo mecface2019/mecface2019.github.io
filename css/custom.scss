@@ -98,6 +98,14 @@ nav{
     
 }
 
+.carImg{
+    background-image: linear-gradient(
+        to top,
+        rgba(0,45,75,0.2),
+        rgba(0,0,0,0.9)
+    );
+}
+
 
 .aboutp{
     text-align: justify;
@@ -123,4 +131,21 @@ nav{
     #loso-navbar-collapse-1{
         display: none;
     }
+}
+
+
+.newKeyPic{
+    height: 160pt !important;
+    width: 160pt !important;
+}
+
+.keyNoteDetails{
+    text-align: left;
+    padding-top: 10pt;
+    margin-top: auto;
+}
+
+.speakerClass{
+    padding : 10pt 0pt ;
+    margin: auto;
 }
