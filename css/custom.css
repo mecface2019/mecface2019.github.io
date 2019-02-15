@@ -98,14 +98,6 @@ nav {
       align-content: center;
 }
 
-.container .navbar-header {
-  display: none;
-}
-
-.container #loso-navbar-collapse-1 {
-  display: none;
-}
-
 .newKeyPic {
   height: 160pt !important;
   width: 160pt !important;
