@@ -1,5 +1,5 @@
 main {
-  height: 110vh;
+  height: 120vh;
   overflow: hidden;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.2)), to(rgba(0, 0, 0, 0.9))), url("../img/homepage/mec.jpg");
   background-image: linear-gradient(to top, rgba(0, 45, 75, 0.2), rgba(0, 0, 0, 0.9)), url("../img/homepage/mec.jpg");
@@ -90,12 +90,6 @@ nav {
 .heading {
   margin: 5pt;
   padding: 15pt;
-}
-
-.map {
-  padding: 15pt;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 .newKeyPic {

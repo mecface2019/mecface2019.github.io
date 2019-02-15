@@ -13,7 +13,7 @@ $colors:(
 }
 
 main{
-    height: 110vh;
+    height: 120vh;
     overflow: hidden; 
     @include coverImage("../img/homepage/mec.jpg");
     text-align: right;  
@@ -116,12 +116,6 @@ nav{
     margin:5pt;
     padding: 15pt;
 }
-
-.map{
-    padding: 15pt;
-    align-content: center;
-}
-
 
 
 // .container{
