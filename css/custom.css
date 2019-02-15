@@ -33,22 +33,22 @@ main {
 
 @media (min-width: 1025px) {
   main h2 {
-    margin-right: 20%;
-    margin-top: 30%;
+    margin-right: 10%;
+    margin-top: 38%;
     padding: auto;
     color: #F3B431;
-    font-size: 35pt;
+    font-size: 30pt;
   }
   main h3 {
-    margin-right: 35pt;
+    margin-right: 25pt;
     color: #F3B431;
-    font-size: 25pt;
+    font-size: 20pt;
   }
   main h4 {
     color: #EAF0F1;
     margin-top: 15pt;
-    margin-right: 16%;
-    font-size: 20pt;
+    margin-right: 10%;
+    font-size: 15pt;
   }
 }
 

@@ -20,10 +20,6 @@ main{
     margin-top: -5%;
 
     @media (min-width: 320px) and (max-width: 480px) {
-
-
-
-
         h2{
             margin-right: 20%;
             margin-top:60%;
@@ -47,27 +43,25 @@ main{
         
       }
     @media (min-width: 1025px){
-
-
         h2{
-        margin-right: 20%;
-        margin-top:30%;
+        margin-right: 10%;
+        margin-top: 38%;
         padding: auto;
         color: color(font);
-        font-size: 35pt;
+        font-size: 30pt;
     }
 
     h3{
-        margin-right:35pt;
+        margin-right:25pt;
         color: color(font);
-        font-size: 25pt;
+        font-size: 20pt;
     }
 
     h4{
         color: color(kindWhite);
         margin-top:15pt;
-        margin-right:16%;
-        font-size: 20pt;
+        margin-right:10%;
+        font-size: 15pt;
     }
         
       }
