@@ -773,3 +773,5 @@ navbar-default .navbar-nav > .active >a:focus{
   padding-bottom: 5%;
   margin-bottom: 5%;  
 }
+
+body { padding-top: 40px; }
