@@ -1,8 +1,8 @@
 main {
   height: 120vh;
   overflow: hidden;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.2)), to(rgba(0, 0, 0, 0.9))), url("../img/homepage/mec.jpg");
-  background-image: linear-gradient(to top, rgba(0, 45, 75, 0.2), rgba(0, 0, 0, 0.9)), url("../img/homepage/mec.jpg");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0)), to(rgba(0, 0, 0, 0.9))), url("../img/carosal/1.JPG");
+  background-image: linear-gradient(to top, rgba(0, 45, 75, 0), rgba(0, 0, 0, 0.9)), url("../img/carosal/1.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -111,5 +111,20 @@ nav {
 .themeClass3 {
   text-align: left;
   padding: 5pt;
+}
+
+.springerLogo {
+  height: 50%;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=custom.css.map */

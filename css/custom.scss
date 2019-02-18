@@ -15,7 +15,7 @@ $colors:(
 main{
     height: 120vh;
     overflow: hidden; 
-    @include coverImage("../img/homepage/mec.jpg");
+    @include coverImage("../img/carosal/1.JPG");
     text-align: right;  
     margin-top: -5%;
 
@@ -49,6 +49,7 @@ main{
         padding: auto;
         color: color(font);
         font-size: 30pt;
+        // font-weight: bolder;
     }
 
     h3{
@@ -147,4 +148,17 @@ nav{
 .themeClass3{
     text-align: left;
     padding: 5pt;   
+}
+
+
+.springerLogo{
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
